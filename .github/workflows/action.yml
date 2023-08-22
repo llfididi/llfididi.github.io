@@ -30,5 +30,5 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: gh-pages
-        folder: pages
+        folder: .next/server/pages
         clean: true
